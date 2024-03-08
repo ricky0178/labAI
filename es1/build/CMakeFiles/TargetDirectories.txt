@@ -1,0 +1,4 @@
+/home/ricky/labAI/es1/build/CMakeFiles/uwimg++.dir
+/home/ricky/labAI/es1/build/CMakeFiles/test0.dir
+/home/ricky/labAI/es1/build/CMakeFiles/edit_cache.dir
+/home/ricky/labAI/es1/build/CMakeFiles/rebuild_cache.dir
