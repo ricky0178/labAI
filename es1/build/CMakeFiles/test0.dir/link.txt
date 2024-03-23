@@ -1,1 +1,0 @@
-/usr/bin/c++ -fdiagnostics-color=always -std=c++11 -pthread -O3 -g -march=native -fPIC -rdynamic CMakeFiles/test0.dir/src/test/test0.cpp.o -o ../test0  -Wl,-rpath,/home/ricky/labAI/es1/build libuwimg++.so -lm -lstdc++ 

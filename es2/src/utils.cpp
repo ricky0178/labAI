@@ -8,14 +8,6 @@
 int tests_total = 0;
 int tests_fail = 0;
 
-void TEST(int tester)
-{
-  if (tester == 0)
-    fprintf(stderr, "Test %3d FAILED (%3d failed so far): [%20s] testing in %20s, line %5d\n", tests_total++, tests_fail++, __FUNCTION__, __FILE__, __LINE__);
-  else
-    fprintf(stderr, "Test %3d PASSED (%3d failed so far): [%20s] testing  in %20s, line %5d\n", tests_total++, tests_fail, __FUNCTION__, __FILE__, __LINE__);
-}
-
 int same_image(const Image& a, const Image& b) { return a==b; }
 
 bool operator ==(const Image& a, const Image& b)
