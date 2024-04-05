@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -fdiagnostics-color=always -std=c++2b -pthread -g -march=native -fPIC CMakeFiles/test_canny.dir/src/test/test2.cpp.o -o ../test_canny  -Wl,-rpath,/home/ricky/Documents/labAI/es3/build libuwimg++.so -lm -lstdc++ /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0 
