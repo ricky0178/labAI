@@ -75,14 +75,11 @@ Image non_maximum_suppression(const Image& mag, const Image& dir)
                 multiplier++;
             }
 
-            printf("Current_dir = %f\tApprox_dir = %f\n", current_dir, now);
-
             // Get the magnitude of the gradient of the two neighbors along that direction
             // (Hint: use clamped_pixel to avoid going out of bounds)            
 
             int x_new = round(cos(now));
             int y_new = round(sin(now));
-            printf("NOW %.4f\t\told_x %d old_y %d\t\tnew_x %d new_y %d\n", now, x, y,x_new, y_new);
             neighbor1 = mag.clamped_pixel(x+x_new, y+y_new);
             neighbor2 = mag.clamped_pixel(x-x_new, y-y_new);
             // If the magnitude of the gradient of the current pixel is greater than that of both neighbors,
@@ -94,7 +91,6 @@ Image non_maximum_suppression(const Image& mag, const Image& dir)
             else{
                 nms(x,y) = 0;
             }
-            printf("[%d,%d]: Current mag %.4f\tNeighbor1 mag %.4f\tNeigbor2 mag %.4f\tValue %.4f\n", x,y, current_mag, neighbor1, neighbor2, nms(x,y));
         }
     }
 
@@ -118,8 +114,23 @@ Image double_thresholding(const Image& im, float lowThreshold, float highThresho
 {
     Image res(im.w, im.h, im.c);
 
-    // TODO: Your code here
-    NOT_IMPLEMENTED();
+    for(int c = 0; c < res.c; c++){
+        for(int x = 0; x < res.w; x++){
+            for(int y = 0; y < res.h; y++){
+                float pixel = im(x,y,c);
+                if(pixel > lowThreshold){
+                    if(pixel < highThreshold){
+                        pixel = weakVal;
+                    } else{
+                        pixel = strongVal;
+                    }
+                } else{
+                    pixel = 0;
+                }
+                res(x,y,c) = pixel;
+            }
+        }
+    }
 
     return res;
 }
@@ -140,10 +151,19 @@ Image edge_tracking(const Image& im, float weak, float strong)
 
     for (int y=0; y < im.h; ++y) {
         for (int x=0; x < im.w; ++x) {
-            // TODO: Your code here
-            NOT_IMPLEMENTED();
-
-            // Hint: use clamped_pixel when checking the neighbors to avoid going out of bounds
+            if(im(x,y) == weak){
+                res(x,y) = 0;
+                for(int i = -1; i <= 1; i++){
+                    for(int j = -1; j <= 1; j++){
+                        if(im.clamped_pixel(x+i, y+j) == strong){
+                            res(x,y) = strong;
+                            break;
+                        }
+                    }
+                }
+            } else{
+                res(x,y) = im(x,y);
+            }
         }
     }
     return res;
