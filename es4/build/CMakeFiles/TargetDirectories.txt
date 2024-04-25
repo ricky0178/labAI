@@ -1,0 +1,13 @@
+/home/ricky/Documents/labAI/es4/build/CMakeFiles/uwimg++.dir
+/home/ricky/Documents/labAI/es4/build/CMakeFiles/test1.dir
+/home/ricky/Documents/labAI/es4/build/CMakeFiles/test2.dir
+/home/ricky/Documents/labAI/es4/build/CMakeFiles/test4.dir
+/home/ricky/Documents/labAI/es4/build/CMakeFiles/make-panorama.dir
+/home/ricky/Documents/labAI/es4/build/CMakeFiles/edit_cache.dir
+/home/ricky/Documents/labAI/es4/build/CMakeFiles/rebuild_cache.dir
+/home/ricky/Documents/labAI/es4/build/src/opencv/CMakeFiles/./interactive_visualization/harris.dir
+/home/ricky/Documents/labAI/es4/build/src/opencv/CMakeFiles/./interactive_visualization/matches.dir
+/home/ricky/Documents/labAI/es4/build/src/opencv/CMakeFiles/./interactive_visualization/inliers.dir
+/home/ricky/Documents/labAI/es4/build/src/opencv/CMakeFiles/./interactive_visualization/panorama.dir
+/home/ricky/Documents/labAI/es4/build/src/opencv/CMakeFiles/edit_cache.dir
+/home/ricky/Documents/labAI/es4/build/src/opencv/CMakeFiles/rebuild_cache.dir
