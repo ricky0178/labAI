@@ -213,9 +213,7 @@ vector<Match> model_inliers(const Matrix& H, const vector<Match>& m, float thres
   vector<Match> inliers;
   // TODO: fill inliers
   // i.e. distance(H*a.p, b.p) < thresh
-  
-  NOT_IMPLEMENTED();
-  
+    
   return inliers;
   }
 
@@ -227,6 +225,7 @@ void randomize_matches(vector<Match>& m)
   // TODO: implement Fisher-Yates to shuffle the array.
   // You might want to use the swap function like:
   // swap(m[0],m[1]) which swaps the first and second element
+
   
   NOT_IMPLEMENTED();
   }
@@ -297,8 +296,21 @@ Matrix RANSAC(vector<Match> m, float thresh, int k, int cutoff)
   //             return it immediately
   // if we get to the end return the best homography
   
-  NOT_IMPLEMENTED();
-  
+  for(int i = 0; i < k; i++){
+    randomize_matches(m);
+    vector<Match> matches;
+    for(int j = 0; j < 4; j++){
+      matches.push_back(m.at(j));
+    }
+    Matrix newHba = compute_homography_ba(matches);
+    vector<Match> newMatches = model_inliers(newHba, matches, thresh);
+    if(newMatches.size() > best){
+      best = newMatches.size();
+      Hba = newHba;
+      if(best > cutoff)
+        break;
+    }
+  }  
   return Hba;
   }
 
