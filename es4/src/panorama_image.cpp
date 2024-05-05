@@ -238,7 +238,7 @@ double point_distance(const Point& p, const Point& q)
 
 // HW5 3.2b
 // Count number of inliers in a set of matches. Should also bring inliers
-// to the front of the array.
+// to the front of the array.es5  
 // const Matrix& H: homography between coordinate systems.
 // const vector<Match>& m: matches to compute inlier/outlier.
 // float thresh: threshold to be an inlier.
