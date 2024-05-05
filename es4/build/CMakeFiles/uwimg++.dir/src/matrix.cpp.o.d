@@ -1,6 +1,6 @@
 CMakeFiles/uwimg++.dir/src/matrix.cpp.o: \
- /home/ricky/Documents/labAI/es4/src/matrix.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
+ /home/ricky/labAI/es4/src/matrix.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -176,9 +176,8 @@ CMakeFiles/uwimg++.dir/src/matrix.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
- /home/ricky/Documents/labAI/es4/src/matrix.h \
- /home/ricky/Documents/labAI/es4/src/utils.h /usr/include/c++/11/mutex \
- /usr/include/c++/11/system_error \
+ /home/ricky/labAI/es4/src/matrix.h /home/ricky/labAI/es4/src/utils.h \
+ /usr/include/c++/11/mutex /usr/include/c++/11/system_error \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h

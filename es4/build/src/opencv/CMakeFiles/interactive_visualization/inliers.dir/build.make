@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ricky/Documents/labAI/es4
+CMAKE_SOURCE_DIR = /home/ricky/labAI/es4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ricky/Documents/labAI/es4/build
+CMAKE_BINARY_DIR = /home/ricky/labAI/es4/build
 
 # Include any dependencies generated for this target.
 include src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/depend.make
@@ -72,30 +72,30 @@ include src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/flags.make
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o: src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/flags.make
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o: ../src/opencv/test_inliers.cpp
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o: src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ricky/Documents/labAI/es4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o"
-	cd /home/ricky/Documents/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o -MF CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o.d -o CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o -c /home/ricky/Documents/labAI/es4/src/opencv/test_inliers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ricky/labAI/es4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o"
+	cd /home/ricky/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o -MF CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o.d -o CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o -c /home/ricky/labAI/es4/src/opencv/test_inliers.cpp
 
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.i"
-	cd /home/ricky/Documents/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/Documents/labAI/es4/src/opencv/test_inliers.cpp > CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.i
+	cd /home/ricky/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/labAI/es4/src/opencv/test_inliers.cpp > CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.i
 
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.s"
-	cd /home/ricky/Documents/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/Documents/labAI/es4/src/opencv/test_inliers.cpp -o CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.s
+	cd /home/ricky/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/labAI/es4/src/opencv/test_inliers.cpp -o CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.s
 
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o: src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/flags.make
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o: ../src/opencv/opencv_utils.cpp
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o: src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ricky/Documents/labAI/es4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o"
-	cd /home/ricky/Documents/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o -MF CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o.d -o CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o -c /home/ricky/Documents/labAI/es4/src/opencv/opencv_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ricky/labAI/es4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o"
+	cd /home/ricky/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o -MF CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o.d -o CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o -c /home/ricky/labAI/es4/src/opencv/opencv_utils.cpp
 
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.i"
-	cd /home/ricky/Documents/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/Documents/labAI/es4/src/opencv/opencv_utils.cpp > CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.i
+	cd /home/ricky/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricky/labAI/es4/src/opencv/opencv_utils.cpp > CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.i
 
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.s"
-	cd /home/ricky/Documents/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/Documents/labAI/es4/src/opencv/opencv_utils.cpp -o CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.s
+	cd /home/ricky/labAI/es4/build/src/opencv && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricky/labAI/es4/src/opencv/opencv_utils.cpp -o CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.s
 
 # Object files for target ./interactive_visualization/inliers
 _/interactive_visualization/inliers_OBJECTS = \
@@ -164,18 +164,18 @@ _/interactive_visualization/inliers_EXTERNAL_OBJECTS =
 .././interactive_visualization/inliers: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 .././interactive_visualization/inliers: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 .././interactive_visualization/inliers: src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ricky/Documents/labAI/es4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../.././interactive_visualization/inliers"
-	cd /home/ricky/Documents/labAI/es4/build/src/opencv && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/./interactive_visualization/inliers.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ricky/labAI/es4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../.././interactive_visualization/inliers"
+	cd /home/ricky/labAI/es4/build/src/opencv && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/./interactive_visualization/inliers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build: .././interactive_visualization/inliers
 .PHONY : src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build
 
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/clean:
-	cd /home/ricky/Documents/labAI/es4/build/src/opencv && $(CMAKE_COMMAND) -P CMakeFiles/./interactive_visualization/inliers.dir/cmake_clean.cmake
+	cd /home/ricky/labAI/es4/build/src/opencv && $(CMAKE_COMMAND) -P CMakeFiles/./interactive_visualization/inliers.dir/cmake_clean.cmake
 .PHONY : src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/clean
 
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/depend:
-	cd /home/ricky/Documents/labAI/es4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ricky/Documents/labAI/es4 /home/ricky/Documents/labAI/es4/src/opencv /home/ricky/Documents/labAI/es4/build /home/ricky/Documents/labAI/es4/build/src/opencv /home/ricky/Documents/labAI/es4/build/src/opencv/CMakeFiles/interactive_visualization/inliers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ricky/labAI/es4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ricky/labAI/es4 /home/ricky/labAI/es4/src/opencv /home/ricky/labAI/es4/build /home/ricky/labAI/es4/build/src/opencv /home/ricky/labAI/es4/build/src/opencv/CMakeFiles/interactive_visualization/inliers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/depend
 

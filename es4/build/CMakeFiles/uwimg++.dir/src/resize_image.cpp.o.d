@@ -1,6 +1,6 @@
 CMakeFiles/uwimg++.dir/src/resize_image.cpp.o: \
- /home/ricky/Documents/labAI/es4/src/resize_image.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/cmath \
+ /home/ricky/labAI/es4/src/resize_image.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -60,7 +60,7 @@ CMakeFiles/uwimg++.dir/src/resize_image.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /home/ricky/Documents/labAI/es4/src/image.h /usr/include/c++/11/cassert \
+ /home/ricky/labAI/es4/src/image.h /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/cstring /usr/include/string.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
@@ -156,7 +156,7 @@ CMakeFiles/uwimg++.dir/src/resize_image.cpp.o: \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /home/ricky/Documents/labAI/es4/src/utils.h /usr/include/c++/11/chrono \
+ /home/ricky/labAI/es4/src/utils.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
@@ -180,9 +180,9 @@ CMakeFiles/uwimg++.dir/src/resize_image.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
- /home/ricky/Documents/labAI/es4/src/matrix.h \
- /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
- /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
+ /home/ricky/labAI/es4/src/matrix.h /usr/include/c++/11/iostream \
+ /usr/include/c++/11/ostream /usr/include/c++/11/ios \
+ /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \
  /usr/include/c++/11/bits/locale_classes.tcc \
  /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc \

@@ -1,5 +1,5 @@
 CMakeFiles/uwimg++.dir/src/utils.cpp.o: \
- /home/ricky/Documents/labAI/es4/src/utils.cpp /usr/include/stdc-predef.h \
+ /home/ricky/labAI/es4/src/utils.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -64,7 +64,7 @@ CMakeFiles/uwimg++.dir/src/utils.cpp.o: \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/ricky/Documents/labAI/es4/src/utils.h /usr/include/c++/11/vector \
+ /home/ricky/labAI/es4/src/utils.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/functexcept.h \
  /usr/include/c++/11/bits/exception_defines.h \
@@ -176,10 +176,10 @@ CMakeFiles/uwimg++.dir/src/utils.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
- /home/ricky/Documents/labAI/es4/src/image.h /usr/include/c++/11/cassert \
+ /home/ricky/labAI/es4/src/image.h /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
- /home/ricky/Documents/labAI/es4/src/matrix.h
+ /home/ricky/labAI/es4/src/matrix.h

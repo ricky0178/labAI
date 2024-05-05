@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ricky/Documents/labAI/es4
+CMAKE_SOURCE_DIR = /home/ricky/labAI/es4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ricky/Documents/labAI/es4/build
+CMAKE_BINARY_DIR = /home/ricky/labAI/es4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ricky/Documents/labAI/es4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ricky/Documents/labAI/es4/build/CMakeFiles /home/ricky/Documents/labAI/es4/build/src/opencv//CMakeFiles/progress.marks
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricky/Documents/labAI/es4/build/CMakeFiles 0
+	cd /home/ricky/labAI/es4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ricky/labAI/es4/build/CMakeFiles /home/ricky/labAI/es4/build/src/opencv//CMakeFiles/progress.marks
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricky/labAI/es4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/clean
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/preinstall
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/preinstall
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ricky/Documents/labAI/es4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ricky/labAI/es4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/opencv/CMakeFiles/./interactive_visualization/harris.dir/rule:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/CMakeFiles/./interactive_visualization/harris.dir/rule
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/CMakeFiles/./interactive_visualization/harris.dir/rule
 .PHONY : src/opencv/CMakeFiles/./interactive_visualization/harris.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ src/opencv/CMakeFiles/./interactive_visualization/harris.dir/rule:
 
 # fast build rule for target.
 ./interactive_visualization/harris/fast:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build
 .PHONY : ./interactive_visualization/harris/fast
 
 # Convenience name for target.
 src/opencv/CMakeFiles/./interactive_visualization/matches.dir/rule:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/CMakeFiles/./interactive_visualization/matches.dir/rule
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/CMakeFiles/./interactive_visualization/matches.dir/rule
 .PHONY : src/opencv/CMakeFiles/./interactive_visualization/matches.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ src/opencv/CMakeFiles/./interactive_visualization/matches.dir/rule:
 
 # fast build rule for target.
 ./interactive_visualization/matches/fast:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build
 .PHONY : ./interactive_visualization/matches/fast
 
 # Convenience name for target.
 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/rule:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/rule
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/rule
 .PHONY : src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/rule:
 
 # fast build rule for target.
 ./interactive_visualization/inliers/fast:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build
 .PHONY : ./interactive_visualization/inliers/fast
 
 # Convenience name for target.
 src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/rule:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/rule
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/rule
 .PHONY : src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/rule:
 
 # fast build rule for target.
 ./interactive_visualization/panorama/fast:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build
 .PHONY : ./interactive_visualization/panorama/fast
 
 opencv_utils.o: opencv_utils.cpp.o
@@ -177,10 +177,10 @@ opencv_utils.o: opencv_utils.cpp.o
 
 # target to build an object file
 opencv_utils.cpp.o:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/opencv_utils.cpp.o
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/opencv_utils.cpp.o
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/opencv_utils.cpp.o
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/opencv_utils.cpp.o
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/opencv_utils.cpp.o
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.o
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/opencv_utils.cpp.o
 .PHONY : opencv_utils.cpp.o
 
 opencv_utils.i: opencv_utils.cpp.i
@@ -188,10 +188,10 @@ opencv_utils.i: opencv_utils.cpp.i
 
 # target to preprocess a source file
 opencv_utils.cpp.i:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/opencv_utils.cpp.i
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/opencv_utils.cpp.i
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.i
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/opencv_utils.cpp.i
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/opencv_utils.cpp.i
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/opencv_utils.cpp.i
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.i
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/opencv_utils.cpp.i
 .PHONY : opencv_utils.cpp.i
 
 opencv_utils.s: opencv_utils.cpp.s
@@ -199,10 +199,10 @@ opencv_utils.s: opencv_utils.cpp.s
 
 # target to generate assembly for a file
 opencv_utils.cpp.s:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/opencv_utils.cpp.s
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/opencv_utils.cpp.s
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.s
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/opencv_utils.cpp.s
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/opencv_utils.cpp.s
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/opencv_utils.cpp.s
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/opencv_utils.cpp.s
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/opencv_utils.cpp.s
 .PHONY : opencv_utils.cpp.s
 
 test_harris.o: test_harris.cpp.o
@@ -210,7 +210,7 @@ test_harris.o: test_harris.cpp.o
 
 # target to build an object file
 test_harris.cpp.o:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/test_harris.cpp.o
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/test_harris.cpp.o
 .PHONY : test_harris.cpp.o
 
 test_harris.i: test_harris.cpp.i
@@ -218,7 +218,7 @@ test_harris.i: test_harris.cpp.i
 
 # target to preprocess a source file
 test_harris.cpp.i:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/test_harris.cpp.i
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/test_harris.cpp.i
 .PHONY : test_harris.cpp.i
 
 test_harris.s: test_harris.cpp.s
@@ -226,7 +226,7 @@ test_harris.s: test_harris.cpp.s
 
 # target to generate assembly for a file
 test_harris.cpp.s:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/test_harris.cpp.s
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/harris.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/harris.dir/test_harris.cpp.s
 .PHONY : test_harris.cpp.s
 
 test_inliers.o: test_inliers.cpp.o
@@ -234,7 +234,7 @@ test_inliers.o: test_inliers.cpp.o
 
 # target to build an object file
 test_inliers.cpp.o:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.o
 .PHONY : test_inliers.cpp.o
 
 test_inliers.i: test_inliers.cpp.i
@@ -242,7 +242,7 @@ test_inliers.i: test_inliers.cpp.i
 
 # target to preprocess a source file
 test_inliers.cpp.i:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.i
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.i
 .PHONY : test_inliers.cpp.i
 
 test_inliers.s: test_inliers.cpp.s
@@ -250,7 +250,7 @@ test_inliers.s: test_inliers.cpp.s
 
 # target to generate assembly for a file
 test_inliers.cpp.s:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.s
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/inliers.dir/test_inliers.cpp.s
 .PHONY : test_inliers.cpp.s
 
 test_matches.o: test_matches.cpp.o
@@ -258,7 +258,7 @@ test_matches.o: test_matches.cpp.o
 
 # target to build an object file
 test_matches.cpp.o:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/test_matches.cpp.o
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/test_matches.cpp.o
 .PHONY : test_matches.cpp.o
 
 test_matches.i: test_matches.cpp.i
@@ -266,7 +266,7 @@ test_matches.i: test_matches.cpp.i
 
 # target to preprocess a source file
 test_matches.cpp.i:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/test_matches.cpp.i
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/test_matches.cpp.i
 .PHONY : test_matches.cpp.i
 
 test_matches.s: test_matches.cpp.s
@@ -274,7 +274,7 @@ test_matches.s: test_matches.cpp.s
 
 # target to generate assembly for a file
 test_matches.cpp.s:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/test_matches.cpp.s
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/matches.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/matches.dir/test_matches.cpp.s
 .PHONY : test_matches.cpp.s
 
 test_panorama.o: test_panorama.cpp.o
@@ -282,7 +282,7 @@ test_panorama.o: test_panorama.cpp.o
 
 # target to build an object file
 test_panorama.cpp.o:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/test_panorama.cpp.o
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/test_panorama.cpp.o
 .PHONY : test_panorama.cpp.o
 
 test_panorama.i: test_panorama.cpp.i
@@ -290,7 +290,7 @@ test_panorama.i: test_panorama.cpp.i
 
 # target to preprocess a source file
 test_panorama.cpp.i:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/test_panorama.cpp.i
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/test_panorama.cpp.i
 .PHONY : test_panorama.cpp.i
 
 test_panorama.s: test_panorama.cpp.s
@@ -298,7 +298,7 @@ test_panorama.s: test_panorama.cpp.s
 
 # target to generate assembly for a file
 test_panorama.cpp.s:
-	cd /home/ricky/Documents/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/test_panorama.cpp.s
+	cd /home/ricky/labAI/es4/build && $(MAKE) $(MAKESILENT) -f src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/build.make src/opencv/CMakeFiles/./interactive_visualization/panorama.dir/test_panorama.cpp.s
 .PHONY : test_panorama.cpp.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ricky/Documents/labAI/es4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ricky/labAI/es4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

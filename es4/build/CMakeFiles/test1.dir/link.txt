@@ -1,1 +1,1 @@
-/usr/bin/c++ -fdiagnostics-color=always -std=c++14 -pthread -O2 -g -march=native -fPIC -rdynamic CMakeFiles/test1.dir/src/test/test1.cpp.o -o ../test1  -Wl,-rpath,/home/ricky/Documents/labAI/es4/build libuwimg++.so -lm -lstdc++ 
+/usr/bin/c++ -fdiagnostics-color=always -std=c++14 -pthread -O2 -g -march=native -fPIC -rdynamic CMakeFiles/test1.dir/src/test/test1.cpp.o -o ../test1  -Wl,-rpath,/home/ricky/labAI/es4/build libuwimg++.so -lm -lstdc++ 

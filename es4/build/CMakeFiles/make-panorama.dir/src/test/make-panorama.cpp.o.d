@@ -1,7 +1,6 @@
 CMakeFiles/make-panorama.dir/src/test/make-panorama.cpp.o: \
- /home/ricky/Documents/labAI/es4/src/test/make-panorama.cpp \
- /usr/include/stdc-predef.h \
- /home/ricky/Documents/labAI/es4/src/test/../image.h \
+ /home/ricky/labAI/es4/src/test/make-panorama.cpp \
+ /usr/include/stdc-predef.h /home/ricky/labAI/es4/src/test/../image.h \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -157,12 +156,12 @@ CMakeFiles/make-panorama.dir/src/test/make-panorama.cpp.o: \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /home/ricky/Documents/labAI/es4/src/test/../utils.h \
- /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
- /usr/include/c++/11/limits /usr/include/c++/11/ctime \
- /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/tuple \
- /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /home/ricky/labAI/es4/src/test/../utils.h /usr/include/c++/11/chrono \
+ /usr/include/c++/11/ratio /usr/include/c++/11/limits \
+ /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
+ /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/tuple /usr/include/c++/11/array \
+ /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/mutex \
@@ -181,8 +180,8 @@ CMakeFiles/make-panorama.dir/src/test/make-panorama.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
- /home/ricky/Documents/labAI/es4/src/test/../matrix.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /home/ricky/labAI/es4/src/test/../matrix.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \

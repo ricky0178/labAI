@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ricky/Documents/labAI/es4/src/opencv/opencv_utils.cpp" "src/opencv/CMakeFiles/interactive_visualization/harris.dir/opencv_utils.cpp.o" "gcc" "src/opencv/CMakeFiles/interactive_visualization/harris.dir/opencv_utils.cpp.o.d"
-  "/home/ricky/Documents/labAI/es4/src/opencv/test_harris.cpp" "src/opencv/CMakeFiles/interactive_visualization/harris.dir/test_harris.cpp.o" "gcc" "src/opencv/CMakeFiles/interactive_visualization/harris.dir/test_harris.cpp.o.d"
+  "/home/ricky/labAI/es4/src/opencv/opencv_utils.cpp" "src/opencv/CMakeFiles/interactive_visualization/harris.dir/opencv_utils.cpp.o" "gcc" "src/opencv/CMakeFiles/interactive_visualization/harris.dir/opencv_utils.cpp.o.d"
+  "/home/ricky/labAI/es4/src/opencv/test_harris.cpp" "src/opencv/CMakeFiles/interactive_visualization/harris.dir/test_harris.cpp.o" "gcc" "src/opencv/CMakeFiles/interactive_visualization/harris.dir/test_harris.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ricky/Documents/labAI/es4/build/CMakeFiles/uwimg++.dir/DependInfo.cmake"
+  "/home/ricky/labAI/es4/build/CMakeFiles/uwimg++.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

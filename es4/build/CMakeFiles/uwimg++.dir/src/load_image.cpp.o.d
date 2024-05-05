@@ -1,6 +1,6 @@
 CMakeFiles/uwimg++.dir/src/load_image.cpp.o: \
- /home/ricky/Documents/labAI/es4/src/load_image.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
+ /home/ricky/labAI/es4/src/load_image.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -130,7 +130,7 @@ CMakeFiles/uwimg++.dir/src/load_image.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/ricky/Documents/labAI/es4/src/image.h /usr/include/c++/11/cassert \
+ /home/ricky/labAI/es4/src/image.h /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/cstring /usr/include/string.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
@@ -159,7 +159,7 @@ CMakeFiles/uwimg++.dir/src/load_image.cpp.o: \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /home/ricky/Documents/labAI/es4/src/utils.h /usr/include/c++/11/chrono \
+ /home/ricky/labAI/es4/src/utils.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
@@ -183,8 +183,7 @@ CMakeFiles/uwimg++.dir/src/load_image.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
- /home/ricky/Documents/labAI/es4/src/matrix.h \
- /home/ricky/Documents/labAI/es4/src/stb_image.h \
+ /home/ricky/labAI/es4/src/matrix.h /home/ricky/labAI/es4/src/stb_image.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -193,4 +192,4 @@ CMakeFiles/uwimg++.dir/src/load_image.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/math.h \
- /home/ricky/Documents/labAI/es4/src/stb_image_write.h
+ /home/ricky/labAI/es4/src/stb_image_write.h

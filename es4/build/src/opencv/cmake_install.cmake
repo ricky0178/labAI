@@ -1,4 +1,4 @@
-# Install script for directory: /home/ricky/Documents/labAI/es4/src/opencv
+# Install script for directory: /home/ricky/labAI/es4/src/opencv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

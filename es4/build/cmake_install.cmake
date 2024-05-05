@@ -1,4 +1,4 @@
-# Install script for directory: /home/ricky/Documents/labAI/es4
+# Install script for directory: /home/ricky/labAI/es4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ricky/Documents/labAI/es4/build/src/opencv/cmake_install.cmake")
+  include("/home/ricky/labAI/es4/build/src/opencv/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ricky/Documents/labAI/es4/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ricky/labAI/es4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
